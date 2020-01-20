@@ -1,2 +1,2 @@
-# BerkshireDemo
-A project for Berkshire Interview
+# berkshiredemo
+A app and api set, for a berkshire interview
