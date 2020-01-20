@@ -1,13 +1,13 @@
 # Berkshire Demo
 Hello, this is an app I made for an interview.  The purpose of this app is to show a full stack app build even if the app is fairly simple.
 
-##API
+## API
 The API is written in .NET 4.6.1 and should demonstrate the following:
 - Ability to add swagger, and return objects back in json
 - Ability to create controllers, services and models
 - Ability to create unit tests on services
 
-##APP
+## APP
 The APP is written on Angular 8 and should demonstrate the following:
 - Ability to create proxy for development
 - Ability to create routing
