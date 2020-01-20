@@ -1,18 +1,27 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
+import { routing } from './app.routing.module';
+//services
+import { ReasonsServiceService } from './services/reasons-service.service';
+//components
 import { AppComponent } from './app.component';
+import { ReasonComponent } from './components/reason/reason.component';
+import { ReasondescriptionComponent } from './components/reasondescription/reasondescription.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ReasonComponent,
+    ReasondescriptionComponent
   ],
   imports: [
+    routing,
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ReasonsServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -21,14 +21,14 @@ namespace UnitTesterDemo
         [TestMethod]
         public void IntNotFoundTest1()
         {
-            API_Scratcher.Models.reasons_discription discription = new API_Scratcher.Services.reason_builder().descriptionBuilder(3500);
-            Assert.AreEqual(999, discription.id);
+            API_Scratcher.Models.reasons_description description = new API_Scratcher.Services.reason_builder().descriptionBuilder(3500);
+            Assert.AreEqual(999, description.id);
         }
         [TestMethod]
         public void IntNotFoundTest2()
         {
-            API_Scratcher.Models.reasons_discription discription = new API_Scratcher.Services.reason_builder().descriptionBuilder(-1);
-            Assert.AreEqual(999, discription.id);
+            API_Scratcher.Models.reasons_description description = new API_Scratcher.Services.reason_builder().descriptionBuilder(-1);
+            Assert.AreEqual(999, description.id);
         }
     }
 }

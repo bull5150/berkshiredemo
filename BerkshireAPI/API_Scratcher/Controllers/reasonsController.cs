@@ -29,7 +29,7 @@ namespace API_Scratcher.Controllers
         /// <returns></returns>
         [HttpGet]
         [Route("descriptions")]
-        public Models.reasons_discription getDiscription(int id)
+        public Models.reasons_description getDescription(int id)
         {
             return new Services.reason_builder().descriptionBuilder(id);
         }

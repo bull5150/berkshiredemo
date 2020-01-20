@@ -10,7 +10,7 @@ namespace API_Scratcher.Models
         public int id { get; set; }
         public string reason_Name { get; set; }
     }
-    public class reasons_discription
+    public class reasons_description
     {
         public int id { get; set; }
         public string reason_Description { get; set; }

@@ -1,0 +1,14 @@
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-3">Hello,</h1>
+    <p>This App is a demo I made for a Berkshire Hathway Interview.  To see the three reasons why I want to work there, use the buttons below.</p>
+  </div>
+</div>
+<div id="listdisplay">
+  <ul>
+    <li *ngFor="let item of reasonsList; let i = index"><button (click)="this.selection(i)">{{item.id}}</button>  {{item.reason_Name}}</li>
+  </ul>
+</div>
+<div id="reasonDescription" *ngIf="showReason">
+    <reasondescription [reasonID]="this.selectedReason"></reasondescription>
+</div>
