@@ -17,15 +17,15 @@ The APP is written on Angular 8 and should demonstrate the following:
 - Ability to get two components to work together
 
 # To Run APP
-Clone Repo
-Open API project
-Restore packages
-Run
-Open APP in VS code
-npm install
-update proxy file with local port used in API project
-npm start which will run the proxy
-go to localhost 4200 
+- Clone Repo
+- Open API project
+- Restore packages
+- Run
+- Open APP in VS code
+- npm install
+- update proxy file with local port used in API project
+- npm start which will run the proxy
+- go to localhost 4200 
 
 
 
